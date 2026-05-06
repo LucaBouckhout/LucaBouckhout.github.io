@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Spelregels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="title-bar">
+        <h1 data-i18n="title">Spelregels</h1>
+        <button id="langBtn" onclick="toggleLang()">English</button>
+    </div>
+
+    <h2 data-i18n="boardTitle">Spelbord</h2>
+    <img src="spelbord.png" alt="Spelbord" class="board-img">
+
+    <div class="section">
+        <h2 data-i18n="setupTitle">Opbouw van het bord</h2>
+        <ul>
+            <li data-i18n="setup1">Het spelbord bestaat uit 4 gekleurde rijen.</li>
+            <li data-i18n="setup2">Elke rij bevat 11 vakjes met getallen.</li>
+            <li data-i18n="setup3">De getallen staan in een vaste volgorde.</li>
+            <li data-i18n="setup4">Elke rij kan gesloten worden wanneer aan de voorwaarden voldaan is.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 data-i18n="goalTitle">Doel van het spel</h2>
+        <p data-i18n="goalText">
+            Verzamel zoveel mogelijk punten door getallen aan te kruisen op je scoreblad.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2 data-i18n="flowTitle">Spelverloop</h2>
+        <ol>
+            <li data-i18n="flow1">De speler gooit alle dobbelstenen.</li>
+            <li data-i18n="flow2">Iedere speler mag de som van de 2 witte dobbelstenen gebruiken.</li>
+            <li data-i18n="flow3">Daarna kiest de actieve speler een combinatie van een witte en een gekleurde dobbelsteen.</li>
+            <li data-i18n="flow4">Het overeenkomstige getal kan aangekruist worden in de juiste rij.</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2 data-i18n="rulesTitle">Belangrijke regels</h2>
+        <ul>
+            <li data-i18n="rules1">Je moet de volgorde van de rij respecteren.</li>
+            <li data-i18n="rules2">Je mag geen vakjes aankruisen vóór een eerder aangekruist vakje in dezelfde rij.</li>
+            <li data-i18n="rules3">Een vakje kan maar één keer aangekruist worden.</li>
+            <li data-i18n="rules4">Het laatste vakje van een rij mag pas aangekruist worden als er al minstens 5 vakjes aangekruist zijn.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 data-i18n="variantTitle">Variant van het spel</h2>
+        <ul>
+            <li data-i18n="variant1">Bij de variant van het spel staan de vakjes in een willekeurige volgorde.</li>
+            <li data-i18n="variant2">De spelregels blijven gelden.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 data-i18n="failTitle">Mislukte worpen</h2>
+        <p data-i18n="failText">
+            Als je geen geldig vakje aankruist tijdens je beurt, krijg je een mislukte worp.
+            Dit levert minpunten op.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2 data-i18n="endTitle">Einde van het spel</h2>
+        <ul>
+            <li data-i18n="end1">Het spel eindigt wanneer een speler 4 mislukte worpen heeft.</li>
+            <li data-i18n="end2">Of wanneer minstens 2 rijen gesloten zijn.</li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="vertaal.js"></script>
+
+</body>
+</html>
