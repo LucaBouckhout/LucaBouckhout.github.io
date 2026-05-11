@@ -10,11 +10,15 @@
 <div class="container">
     <div class="title-bar">
         <h1 data-i18n="title">Spelregels</h1>
-        <button id="langBtn" onclick="toggleLang()">English</button>
+        <select id="langSelect">
+            <option value="NL">Nederlands</option>
+            <option value="EN">English</option>
+            <option value="FR">Français</option>
+        </select>
     </div>
 
     <h2 data-i18n="boardTitle">Spelbord</h2>
-    <img src="spelbord.png" alt="Spelbord" class="board-img">
+    <img src="spelbord.png" alt="spelbord" class="board-img">
 
     <div class="section">
         <h2 data-i18n="setupTitle">Opbouw van het bord</h2>
@@ -76,7 +80,6 @@
             <li data-i18n="end2">Of wanneer minstens 2 rijen gesloten zijn.</li>
         </ul>
     </div>
-
 </div>
 
 <script src="vertaal.js"></script>
